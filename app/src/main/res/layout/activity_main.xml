@@ -19,9 +19,15 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
     <RadioGroup
-        android:id="@+id/radio_plus"
+        android:id="@+id/rg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btn_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/devide">
+        </RadioButton>
         <RadioButton
             android:id="@+id/btn_minus"
             android:layout_width="wrap_content"
@@ -40,9 +46,10 @@
             android:layout_height="wrap_content"
             android:text="@string/devide">
         </RadioButton>
+
     </RadioGroup>
     <Button
-        android:id="@+id/btn_plus"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_plus"/>
