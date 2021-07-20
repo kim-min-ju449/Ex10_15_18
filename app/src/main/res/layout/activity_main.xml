@@ -18,6 +18,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
+    <RadioGroup
+        android:id="@+id/radio_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btn_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btn_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btn_divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/devide">
+        </RadioButton>
+    </RadioGroup>
     <Button
         android:id="@+id/btn_plus"
         android:layout_width="match_parent"
